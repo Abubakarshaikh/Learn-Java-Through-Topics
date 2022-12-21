@@ -1,11 +1,11 @@
-// Example #1:
+// Example #1: First Program
 // class Main {
 // public static void main(String[] args) {
 // System.out.println("Standard Edition Java");
 // }
 // }
 
-// Example #2:
+// Example #2: Data Types
 // class Main {
 // public static void main(String[] args) {
 // int myNum = 5; // Integer (whole number)
@@ -18,7 +18,22 @@
 // }
 // }
 
-// Example #3:
+// Example #3: How get Input
+// import java.util.Scanner;
+
+// class Main {
+// public static void main(String[] args) {
+// Scanner obj = new Scanner(System.in);
+// System.out.print("Input a string: ");
+// // int userInput = obj.nextInt();
+// // double userInput = obj.nextDouble();
+// String userInput = obj.nextLine();
+
+// System.out.println("Standard Edition Java " + userInput);
+// }
+// }
+
+// Example #4:
 // public class Main {
 // public static void main(String[] args) {
 // final int myNum = 15;
@@ -27,7 +42,7 @@
 // }
 // }
 
-// Example #4:
+// Example #5:
 // class Main {
 // static void myMethod() {
 // System.out.println("Hello, Ali");
@@ -38,7 +53,7 @@
 // }
 // }
 
-// Example #5:
+// Example #6:
 // public class Main {
 // static void myMethod(String fname) {
 // System.out.println(fname + " Refsnes");
@@ -51,7 +66,7 @@
 // }
 // }
 
-// Exercise #1:
+// Exercise #1: Calculate Average
 // October Class Present: 9
 // October Class Present: 10
 // October Class Present: 11
@@ -81,7 +96,7 @@
 // return false;
 // }
 
-// Exercise #3:
+// Exercise #3: Difficult
 // Check whether every digit of the said
 // integer is even or not!
 // input: 2468
