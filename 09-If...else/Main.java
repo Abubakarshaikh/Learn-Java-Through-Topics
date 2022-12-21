@@ -32,11 +32,11 @@
 
 // -------------------- 3. The else if Statement ------------------
 
-public class Main {
-    public static void main(String args[]) {
-        int time = 20;
-        if (time < 10) {
-            System.out.println(null);
-        }
-    }
-}
+// public class Main {
+//     public static void main(String args[]) {
+//         int time = 20;
+//         if (time < 10) {
+//             System.out.println(null);
+//         }
+//     }
+// }
